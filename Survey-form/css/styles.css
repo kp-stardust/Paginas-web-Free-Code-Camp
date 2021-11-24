@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Literata');
+
+
+body {
+  text-align: center;
+  background-color: #90B9B1;
+  background-image: linear-gradient(rgba(0,128,128,0.4), rgba(0,128,128,0.4)),
+    url(/img/old-books-1560855.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#title {
+  font: 35px Lobster, verdana;
+  text-shadow: rgba(0,0,0,0.5) 3px 3px 5px;
+  margin: 20px auto;
+  background-color: #A2D9CE;
+  width: 500px;
+  border-radius: 20px;
+}
+#description {
+    font: italic 25px Nunito;
+    margin: auto;
+    max-width: 400px;
+    color: #44DAE9;
+}
+#survey-form {
+  font: 20px Nunito;
+  text-align: justify;
+  margin: auto;
+  width: 700px;
+  background: #568E83;
+  border-radius: 20px;
+  font-family: Literata;
+  
+}
+
+.form-group {
+  text-align: left;
+  margin: 15px auto 10px 70px;
+}
+
+#name-label, #email-label, #number-label {
+  display: block;
+  height: 30px;
+  margin: 10px auto 0px;
+}
+
+.form-control {
+    width: 560px;
+    height: 30px;
+    border-radius: 10px;
+    margin: 15px auto 15px auto;
+}
+
+p {
+  margin: 15px auto 10px auto;
+  
+}
+
+#books-read, #activ {
+  display: block;
+}
+
+#radio-book {
+  margin: auto;
+}
+
+#dropdown, #genre {
+  height: 30px;
+  
+}
+
+textarea {
+    width: 560px;
+    height: 150px;
+    margin: 15px auto 10px -70px;
+    padding: 0;
+    font: inherit;
+}
+#submit {
+    width: 560px;
+    height: 35px;
+    margin: 0px 15px 15px -70px;
+    background-color: #1F6076;
+    border-color: #366271;
+    font: inherit;
+}

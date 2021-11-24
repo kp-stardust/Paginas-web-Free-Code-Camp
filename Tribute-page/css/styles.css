@@ -1,0 +1,51 @@
+html {
+    font-size: 10px;
+  }
+  
+  body {
+        font-family: Nunito, Roboto;
+        font-size: 1.7em;
+        text-align: center;
+        
+        background-color: #AC7EBD;
+  }
+  
+  #title {
+    background-color: #5B2C6F;
+  }
+  
+  img {
+         max-width: 100%;
+         display: block;
+         height: auto;
+         margin: 0 auto;
+         border-radius: 20px;
+  }
+  
+  h3 {
+    margin: 30px auto 10px auto;
+  }
+  
+  ul {
+    max-width: 600px;
+    margin: 40px auto 10px auto;
+    text-align: left;
+  }
+  
+  li {
+      margin: 20px;
+      text-align: justify;
+  }
+  
+  blockquote {
+    max-width: 450px;
+    margin: 40px auto 10px auto;
+    text-align: justify;
+    font-style: oblique;
+  }
+  
+  h4 {
+     max-width: 200px;
+     text-align: center;
+     margin: 10px auto 20px auto;
+  }

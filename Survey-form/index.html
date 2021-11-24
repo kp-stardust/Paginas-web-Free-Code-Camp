@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+      
+      <h1 id="title"> Book Club Survey Form </h1>
+      
+      <p id="description"> Survey for members of the book club </p>
+        </header>
+          
+      <form id="survey-form">
+        <div class="form-group"> 
+        <label id="name-label" for="name"> Name </label>
+          <input 
+             type="text" 
+             name="name" 
+             id="name" 
+             class="form-control" 
+             placeholder="Enter your name" 
+             required />
+        </div>
+        <div class="form-group">
+        <label id="email-label" for="email"> E-mail </label>     <input
+             type="email" 
+             name="email" 
+             id="email" 
+             class="form-control" 
+             placeholder="Enter your e-mail" 
+             required />
+        </div>
+        <div class="form-group">
+          <label id="number-label" for="number"> Age (optional) </label>
+        <input 
+           type="number" 
+           name="Age" 
+           id="number" 
+           min="10" 
+           max="110" 
+           class="form-control" 
+           placeholder="Your Age"/>
+        </div>
+        <div class="form-group">
+          <p> How did you learn about the book club? </p>
+          <select id="dropdown"name="list" class="form-control" required>
+            <option value=""> Choose Option </option>
+            <option value="library"> Public Library </option>
+            <option value="Social"> Social Media </option>
+            <option value="mail"> E-mail </option>
+            <option value="friend"> Recommended by a friend         </option>
+            <option value="school"> School or similar               </option>
+            <option value="other"> Other </option> 
+          </select>
+       </div>
+        
+       <div class="form-group">
+         <p> How many books have you read this year? </p>
+         <label id="books-read">
+           <input 
+                  type="radio" 
+                  name="books-read" 
+                  id="radio-book"
+                  value="0-to-10" checked> 
+                  0 to 10 books. </label>
+         <label id="books-read">
+           <input 
+                  type="radio" 
+                  name="books-read" 
+                  id="radio-book"
+                  value="10 to 30"> 
+           10 to 30 books. </label>
+         <label id="books-read">
+           <input 
+                  type="radio" 
+                  name="books-read" 
+                  id="radio-book"
+                  value="more-than-30"> 
+           More than 30 books. </label>
+        </div>  
+        <div class="form-group">
+          <p> What is your favorite literary gender? </p>
+          <select id="genre"name="list" class="form-control" required>
+            <option value=""> Choose favorite literary gender  </option>
+            <option value="poetry"> Poetry </option>
+            <option value="drama"> Drama </option>
+            <option value="prose"> Prose </option>
+            <option value="non-fiction"> Non Fiction </option>
+            <option value="media"> Media </option>
+            <option value="other"> Other </option> 
+          </select>
+       </div>
+       <div class="form-group">
+         <p> What activities would you like for the club? </p>
+         <label id="activ"><input 
+                       type="checkbox" 
+                       name="suggest" 
+                       value="book-month" 
+                       class="sug-checkbox"> 
+                       Book of the month 
+         </label>
+         <label id="activ"><input 
+                       type="checkbox" 
+                       name="suggest" 
+                       value="writing" 
+                       class="sug-checkbox"> 
+                       Writing activities/exercises 
+         </label>
+         <label id="activ"><input 
+                       type="checkbox" 
+                       name="suggest" 
+                       value="recomend" 
+                       class="sug-checkbox"> 
+                        Books recommendation 
+         </label>
+         <label id="activ"><input 
+                       type="checkbox" 
+                       name="suggest" 
+                       value="debate" 
+                       class="sug-checkbox"> 
+                       Literary Debate 
+         </label>
+         <label id="activ"><input 
+                       type="checkbox" 
+                       name="suggest" 
+                       value="challenge" 
+                       class="sug-checkbox"> 
+                       Reading Challenges 
+         </label>
+         <label id="activ"><input 
+                       type="checkbox" 
+                       name="suggest" 
+                       value="exchange" 
+                       class="sug-checkbox"> 
+                        Book exchange 
+         </label>
+         <label id="activ"><input 
+                       type="checkbox" 
+                       name="suggest" 
+                       value="other" 
+                       class="sug-checkbox"> 
+                       Other activities 
+         </label>
+         <p> Do you have any comments or suggestions? </p>
+         <div class="form-group">
+           <textarea name="comment" placeholder="Comments go here"></textarea>
+          </div>
+         <div class="form-group">
+           <input id="submit" type="submit" value="Submit">
+         </div>
+        </div>
+      </form>
+</body>
+</html>
