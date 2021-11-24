@@ -5,7 +5,7 @@ body {
   text-align: center;
   background-color: #90B9B1;
   background-image: linear-gradient(rgba(0,128,128,0.4), rgba(0,128,128,0.4)),
-    url(/img/old-books-1560855.jpg);
+    url(img/old-books-1560855.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
